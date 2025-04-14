@@ -1,1 +1,1 @@
-gcc -o primegenerator main.c check.c prime.c primeparallel.c primeparallelcyclic.c primeparallelcyclicrabin.c -Wall -lpthread -O3
+gcc -o primegenerator src/main.c src/check.c src/prime.c src/primeparallel.c src/primeparallelcyclic.c src/primeparallelcyclicrabin.c -Wall -lpthread -O3
